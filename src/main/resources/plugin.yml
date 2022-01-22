@@ -1,0 +1,12 @@
+name: TheNoogitPlugin
+version: ${project.version}
+main: net.walmartmc.thenoogitplugin.TheNoogitPlugin
+api-version: 1.16
+authors: [ MasterCoal ]
+description: Noogits plugin made by Coal
+website: store.walmartmc.net
+commands:
+  noogit:
+    aliases: ng
+    permission: walmartmc.admin
+    permission-message: Unknown command. Type "/help" for help.
